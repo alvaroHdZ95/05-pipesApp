@@ -6,6 +6,7 @@ import { CardModule } from 'primeng/card';
 import { FieldsetModule } from 'primeng/fieldset';
 import { MenubarModule } from 'primeng/menubar';
 import { PanelModule } from 'primeng/panel';
+import { ToolbarModule } from "primeng/toolbar";
 
 //* El objetivo de este módulo es exportar todos los módulos que voy a necesitar
 
@@ -17,7 +18,8 @@ import { PanelModule } from 'primeng/panel';
       CardModule,
       FieldsetModule,
       MenubarModule,
-      PanelModule
+      PanelModule,
+      ToolbarModule
     ]
 })
 export class PrimeNgModule { }
