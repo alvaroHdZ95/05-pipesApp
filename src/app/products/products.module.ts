@@ -8,6 +8,7 @@ import { NumbersPageComponent } from './pages/numbers-page/numbers-page.componen
 import { OrderComponent } from './pages/order/order.component';
 import { UncommonPageComponent } from './pages/uncommon-page/uncommon-page.component';
 
+import { CanFlyPipe } from './pipes/can-fly.pipe';
 import { ToggleCasePipe } from './pipes/toggle-case.pipe';
 
 
@@ -19,6 +20,7 @@ import { ToggleCasePipe } from './pipes/toggle-case.pipe';
     UncommonPageComponent,
 
     //* Pipes
+    CanFlyPipe,
     ToggleCasePipe
   ],
   imports: [
